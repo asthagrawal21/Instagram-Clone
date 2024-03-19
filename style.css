@@ -1,0 +1,452 @@
+*{
+   padding-left: 2rem;
+   padding-right: 2rem;
+}
+.content
+{
+    background-color: black;
+}
+.navbar{
+    height: 20%;
+   width: 33rem;
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    padding-left: 0;
+    padding-right: 0;
+   
+}
+.name{
+    padding-left: 5px;
+    padding-right: 0px;
+    width: 155px;
+    color: white;
+}
+.name h2{
+    padding-left: 4px;
+    padding-right: 2rem;
+
+}
+.border1{
+    border: 2px solid transparent;
+}
+.border1:hover{
+    border: 2px solid white;
+    cursor: pointer;
+    height: 20px;
+}
+.icon{
+   margin-top: 23px;
+   color: bisque;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+.icon i{
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 3px;
+}
+.add{
+   margin-top: 23px;
+   margin-left: 20rem;
+   color: white;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+.add i{
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 2px;
+    margin-left: 0;
+
+}
+.lines{
+    margin-top: 23px;
+    color: white;
+    padding-left: 11px;
+   padding-right: 5px;
+}
+.lines i{
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 3px;
+}
+.section1{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 2rem;
+    display: flex;
+    width: 33rem;
+    background-color:rgb(0, 0, 0);
+   
+}
+.dp{
+    padding-left: 0;
+    padding-right: 0;
+}
+.dp img{
+    margin-left: 0;
+    margin-top: 1rem;
+    padding-right: 0;
+    padding-left: 1rem;
+    background-color:rgb(0, 0, 0);
+    height:9rem;
+    width: 9rem;
+}
+.upload{
+    color: white;
+    padding-left: 1rem;
+    padding-right: 3px;
+}
+.upload h1{
+       margin-bottom: 0;
+       margin-top: 60px;}
+.upload p{
+        margin-top: 0;
+        padding-top: 8px;
+        padding-left: 39px;
+}
+.upload:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+    z-index: 2; 
+}
+.follow{
+    color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.follow h1{
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+.follow p{
+        margin-top: 8px;
+        padding-left: 30px;
+}
+.follow:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+    z-index: 2; 
+}
+.fan{
+    color: white;
+    padding-left: 2px;
+    padding-right: 0;
+}
+.fan h1{
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+.fan p{
+        margin-top: 8px;
+        padding-left: 11px;
+} 
+.fan:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+    z-index: 2; 
+}
+.bio h2{
+    background-color: black;
+    width: 29rem;
+    color: aliceblue;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.bio h3{
+    margin-top: 0;
+    margin-bottom: 3px;
+    border: 2px solid black;
+    color: grey;
+    width: 460px;
+    background-color:black;
+}
+.bio p{
+    background-color: black;
+    width: 460px;
+    color: aliceblue;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+.reach{
+    cursor: pointer;
+    color: black;
+    height: 60px;
+    background-color: lightgrey;
+    width: 28rem;
+    margin-left: 8px;
+    margin-top: 1rem;
+    padding-top: 0.2px;
+    border-radius: 8px;
+
+}
+.reach p{
+    padding-left: 6rem;
+    width: 300px;
+}
+.options{
+    display: flex;
+}
+.edit{
+    cursor: pointer;
+    color: black;
+    height: 50px;
+    background-color: lightgrey;
+    width: 8rem;
+    margin-left: 1px;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+.edit h4{
+    margin-top: 18px;
+    padding-left: 1rem;
+
+}
+.share{
+    cursor: pointer;
+    color: black;
+    height: 50px;
+    background-color: lightgrey;
+    width: 11rem;
+    margin-left: 20px;
+    margin-top: 1rem;
+    border-radius: 8px;
+    padding-left: 30px;
+}
+.share h4{
+        margin-top: 18px;
+        margin-left: 0;
+        padding-left: 38px;
+        width: 12rem;
+}
+.highlight{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    padding-right: 0;
+    width: 550px;
+    height: 8rem;
+   
+}
+.posts{
+    margin-bottom: 10px;
+}
+.post1 i{
+    padding-left: 0;
+    color: white;
+}
+.post2 i{
+    padding-left: 5rem;
+    color: white;
+}
+.post3 i{
+    padding-left: 4rem;
+    color: white;
+}
+.first{
+    padding-right: 0;
+    padding-left: 0;
+    cursor: pointer;
+}
+.first img{
+    height: 70px;
+    width: 70px;
+    padding-left: 1px;
+    margin-top: 20px;
+    padding-right: 0;
+    
+}
+.first h4{
+    padding-left: 18px;
+    margin-top: 10px;
+}
+.second{
+    padding-right: 0;
+    cursor: pointer;
+}
+.second img{
+    height: 70px;
+    width: 70px;
+    padding-left: 1px;
+    margin-top: 20px;
+    padding-right: 0;
+}
+.second h4{
+    padding-left: 18px;
+    margin-top: 10px;
+}
+.third{
+    padding-right: 0;
+    cursor: pointer;
+}
+.third img{
+    height: 70px;
+    width: 70px;
+    padding-left: 1px;
+    margin-top: 20px;
+    padding-right: 0;
+}
+.third h4{
+    padding-left: 18px;
+    margin-top: 10px;
+}
+.fourth{
+    padding-right: 0;
+    cursor: pointer;
+}
+.fourth img{
+    padding-right: 0;
+    height: 70px;
+    width: 70px;
+    padding-left: 1px;
+    margin-top: 20px;
+}
+.fourth h4{
+    padding-left: 18px;
+    margin-top: 10px;
+}
+.fifth{
+    padding-right: 0;
+    cursor: pointer;
+}
+.fifth img{
+    padding-right: 0;
+    height: 70px;
+    width: 70px;
+    padding-left: 1px;
+    margin-top: 20px;
+}
+.posts{
+    color:cornflowerblue;
+    display: flex;
+    padding-left: 3rem;
+    margin-top: 20px;
+}
+.post2{
+    padding-left: 3rem;
+}
+.post3{
+    padding-left: 4rem;
+}
+.row1{
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.number1{
+    padding-left: 0;
+    padding-right: 5px;
+}
+.number1 img{
+    height:23rem ;
+    width: 12rem;
+    padding-left: 0;
+    padding-right: 5px;
+}
+.number1 img:hover{
+   transform: scale(1.2);
+   z-index: 2;}
+.number2{
+    padding-left: 0;
+    padding-right: 5px;
+}
+.number2 img{
+    height:23rem ;
+    width: 12rem;
+    padding-left: 0;
+    padding-right: 5px;
+}
+.number2 img:hover{
+    transform: scale(1.2);
+    z-index: 2;}
+.number3{
+    padding-left: 0;
+    padding-right: 5px;
+}
+.number3 img{
+    height:23rem ;
+    width: 12rem;
+    padding-left: 0;
+    padding-right: 5px;
+}
+.number3 img:hover{
+    transform: scale(1.2);
+    z-index: 2;}
+.row2{
+    display: flex;
+    padding-left: 0;
+    cursor: pointer;
+}
+.row2 img{
+    height: 23rem;
+    width: 12rem;
+    padding: 0;
+
+}
+.number4{
+    padding-left: 0;
+    padding-right: 5px;
+}
+.number4 img{
+    height:23rem ;
+    padding-left: 0;
+    padding-right: 5px;
+}
+.number4 img:hover{
+    transform: scale(1.2);
+    z-index: 2;}
+.number5{
+    padding-left: 0;
+    padding-right: 5px;
+}
+.number5 img{
+    height:23rem ;
+    padding-left: 0;
+    padding-right: 5px;
+}
+.number5 img:hover{
+    transform: scale(1.2);
+    z-index: 2;}
+.number6{
+    padding-left: 0;
+    padding-right: 5px;
+}
+.number6 img{
+    height:23rem ;
+    padding-left: 0;
+    padding-right: 5px;
+}
+.number6 img:hover{
+    transform: scale(1.2);
+    z-index: 2;}
+
+.footer{
+    display: flex;
+    color: white;
+    padding-left: 0;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.icon1 i{
+    padding-left: 0;
+    padding-right: 0;
+    height: 2rem;
+}
+.icon2 i{
+    padding-left: 50px;
+    padding-right: 0;
+}
+.icon3 i{
+    padding-left: 40px;
+    padding-right: 0;
+}
+.icon4 i{
+    padding-left: 50px;
+    padding-right: 0;
+}
+.icon5 img{
+    padding-left: 50px;
+    height: 20px;
+    width: 20px;
+}
